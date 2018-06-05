@@ -20,7 +20,7 @@ void cal(int m,int n)
 						bj=j;
 					}
 			}
-	printf("min location:(%d,%d), max location:(%d,%d)",si,sj,bi,bj);
+	printf("min location:(%d,%d), max location:(%d,%d)",si+1,sj+1,bi+1,bj+1);
 	return;
 }
 int main ()
