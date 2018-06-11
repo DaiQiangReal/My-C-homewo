@@ -1,21 +1,19 @@
 #include<stdio.h>
 #define pi 3.14
-double lenth(int r)
+double lenth(double r)
 {
     return 2*pi*r;
 }
 
-double s(int r)
+double s(double r)
 {
        return pi*r*r;
 }
 
 int main ()
 {
-    int r;
-    scanf("%d",&r);
+    double r;
+    scanf("%lf",&r);
     printf("c=%lf\ns=%lf",lenth(r),s(r));
-    getchar();
-    getchar();
     return 0;
 }
