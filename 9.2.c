@@ -3,7 +3,7 @@
 double h;
 double fun(double x)
 {
-	return sin(2*x)+x;
+	return sin(2.0*x)+x;
 }
 double cal(double a,double b)
 {
