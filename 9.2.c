@@ -1,6 +1,6 @@
 #include<stdio.h>
 #include<math.h>
-double h=0.001;
+double h;
 double fun(double x)
 {
 	return sin(2*x)+x;
@@ -16,7 +16,10 @@ double cal(double a,double b)
 int main ()
 {
 	double a,b;
+	int n;
 	scanf("%lf%lf",&a,&b);
-	printf("%lf",cal(a,b));
+	scanf("%d",&n);
+	h=(b-a)/(double)n;
+	printf("%.3lf",cal(a,b));
 	return 0;
 }
