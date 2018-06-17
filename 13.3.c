@@ -2,14 +2,14 @@
 struct teacher{
 	char name[10];
 	int num;
-	char sex[5];
+	char sex[6];
 	char work[10];
 	char what_do[10];
 };
 struct student{
 	char name[10];
 	int num;
-	char sex[5];
+	char sex[6];
 	char work[10];
 	int clas;
 };
@@ -28,16 +28,16 @@ int main()
 	scanf("%s",demos.work);
 	scanf("%d",&demos.clas);
 	
-	printf("%s",demot.name);
-	printf("%d",demot.num);
-	printf("%s",demot.sex);
-	printf("%s",demot.work);
-	printf("%s",demot.what_do);
+	printf("%s ",demot.name);
+	printf("%d ",demot.num);
+	printf("%s ",demot.sex);
+	printf("%s ",demot.work);
+	printf("%s\n",demot.what_do);
 
-	printf("%s",demos.name);
-	printf("%d",demos.num);
-	printf("%s",demos.sex);
-	printf("%s",demos.work);
+	printf("%s ",demos.name);
+	printf("%d ",demos.num);
+	printf("%s ",demos.sex);
+	printf("%s ",demos.work);
 	printf("%d",demos.clas);
 	return 0;
 }
